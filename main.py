@@ -8,19 +8,19 @@ from fastapi.responses import JSONResponse
 server_list = "server_list.json"
 
 api_keys = [
-    "aR6eT0uJ6qM3gZ5hD6gZ0tZ2eL2aH2jL"
+    "API-Key"
 ]
 
-def read_json_file(file_path):
+def read_json_file(file_path):# read data from JSON file
         with open(file_path, 'r') as file:
             data = json.load(file)
         return data
 
 app = FastAPI()
 
-api_key_header = APIKeyHeader(name="Authentication")
+api_key_header = APIKeyHeader(name="Authentication")  #API key header
 
-def get_api_key(api_key_header: str = Security(api_key_header)) -> str:
+def get_api_key(api_key_header: str = Security(api_key_header)) -> str: #Get API Key from the header
     if api_key_header in api_keys:
         return api_key_header
     raise HTTPException(
