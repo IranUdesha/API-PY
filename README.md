@@ -7,6 +7,8 @@ uvicorn - pip install uvicorn[standard]
 
 
 #Instruction 
-Install Dependencies and run (Python main.py)
+Install Dependencies 
+Add API key to api_keys = ["API-KEy"] 
+Run (Python main.py)
 
 
