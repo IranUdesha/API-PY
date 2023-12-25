@@ -2,13 +2,13 @@
 This API is created using FastAPI python Framework. 
 
 #Dependencies
-FastAPI - pip install fastapi[all]
-uvicorn - pip install uvicorn[standard]
+<br>FastAPI - pip install fastapi[all]
+<br>uvicorn - pip install uvicorn[standard]
 
 
 #Instruction 
-Install Dependencies 
-Add API key to api_keys = ["API-KEy"] 
-Run (Python main.py)
+<br>Install Dependencies 
+<br>Add API key to api_keys = ["API-KEY"] 
+<br>Run (Python main.py)
 
 
