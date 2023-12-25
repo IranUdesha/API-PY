@@ -13,4 +13,4 @@ This API is created using FastAPI python Framework.
 </br>Run (Python main.py)
 
 #To test API
-</br>Send an HTTP GET request to http://localhost//api/data with the Authentication header set to a valid API key.
+</br>Send an HTTP GET request to http://localhost/api/data with the Authentication header set to a valid API key.
